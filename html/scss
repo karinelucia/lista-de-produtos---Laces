@@ -1,0 +1,153 @@
+<!doctype html><html><head><style type="text/css">* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url(https://devbeep.com/wp-content/uploads/2022/04/GGGGG.png.webp);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; }
+
+.products {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; }
+
+.product {
+  margin: 10px;
+  width: 300px;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  text-align: justify;
+  color: white;
+  padding: 20px;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(1.5px);
+  -webkit-backdrop-filter: blur(8.5px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: rgba(142, 142, 142, 0.19) 0px 6px 15px 0px;
+  -webkit-box-shadow: rgba(142, 142, 142, 0.19) 0px 6px 15px 0px;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  color: rgba(255, 255, 255, 0.75); }
+  .product__title {
+    margin-top: 10px;
+    font-size: 26px;
+    color: white; }
+  .product__price {
+    margin: 10px 0;
+    color: white;
+    font-size: 24px; }
+  .product__img {
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 50%; }
+  .product__text {
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold; }
+  .product__btn {
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(1.5px);
+    -webkit-backdrop-filter: blur(8.5px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: rgba(142, 142, 142, 0.19) 0px 6px 15px 0px;
+    -webkit-box-shadow: rgba(142, 142, 142, 0.19) 0px 6px 15px 0px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px; }
+  .product__star {
+    position: absolute;
+    font-size: 26px;
+    top: 5%;
+    right: 10%;
+    color: white; }
+</style></head><body><div class="products">
+	<div class="product">
+		<img class="product__img" src="https://cdn.shopify.com/s/files/1/0321/5802/3818/products/LaceAfroCurta-PerucadeCabeloHumano1_1024x1024.jpg?v=1651839565" alt="product img"/>
+		<h3 class="product__title">
+			LACE Wig - Red
+		</h3>
+		<h3 class="product__price">
+			R$ 78,00
+
+		</h3>
+		<p class="product__text">
+			Cabelo orgânico, afro, com pentes internos.
+		</p>
+		<button class="product__btn">
+    Add no carrinho
+    </button>
+		<div class="product__star">
+			
+		</div>
+	</div>
+	<div class="product">
+		<img class="product__img" src="https://cdn.shopify.com/s/files/1/0321/5802/3818/products/LaceAfroCurta-PerucadeCabeloHumano2_1024x1024.jpg?v=1651839565" alt="product img"/>
+		<h3 class="product__title">
+			Lace Wig - Roxa
+		</h3>
+		<h3 class="product__price">
+			R$78,00
+		</h3>
+		<p class="product__text">
+			Cabelo orgânico, afro, com pentes internos.
+		</p>
+		<button class="product__btn">
+		    Add no carrinho
+		    </button>
+		<div class="product__star">
+			
+		</div>
+	</div>
+	<div class="product">
+		<img class="product__img" src="https://cdn.shopify.com/s/files/1/0321/5802/3818/products/LaceAfroCurta-PerucadeCabeloHumano12_1024x1024.png?v=1651839565" alt="product img"/>
+		<h3 class="product__title">
+			Lace Wig - Orange
+		</h3>
+		<h3 class="product__price">
+			R$78,00
+		</h3>
+		<p class="product__text">
+			Cabelo orgânico, afro, com pentes internos.
+		</p>
+		<button class="product__btn">
+			    Add no carrinho
+			    </button>
+		<div class="product__star">
+			
+		</div>
+	</div>
+	<div class="product">
+		<img class="product__img" src="https://cdn.shopify.com/s/files/1/0321/5802/3818/products/LaceAfroCurta-PerucadeCabeloHumano11_1024x1024.png?v=1651839565" alt="product img"/>
+		<h3 class="product__title">
+			Lace Wig - Black
+		</h3>
+		<h3 class="product__price">
+			R$78,00
+		</h3>
+		<p class="product__text">
+			Cabelo orgânico, afro, com pentes internos.
+		</p>
+		<button class="product__btn">
+				    Add no carinho
+				    </button>
+		<div class="product__star">
+			
+		</div>
+	</div>
+</div></body><html>
